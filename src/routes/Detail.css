@@ -1,0 +1,47 @@
+.detail_container {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 800px;
+  font-weight: 300;
+}
+
+.detail_container img {
+  position: relative;
+  top: -50px;
+  margin-right: 30px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail_container .detail_title,
+.detail_container .detail_year {
+  margin: 0;
+  font-weight: 300;
+}
+
+.detail_container .detail_title {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #2c2c2c;
+}
+
+.detail_container .detail_genres {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0px;
+}
+
+.detail_genres li,
+.detail_container .detail_year {
+  margin-right: 10px;
+  font-size: 14px;
+}
